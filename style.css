@@ -162,7 +162,9 @@ input{
     outline: none;
 }
 
-.icons{
+#icons{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.589);
 }
 
 div.icon{
