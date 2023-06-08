@@ -9,4 +9,93 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    background: black url(img/pexels-alex-andrews-816608.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+img.diagroma{
+    width: 54px;
+    height: 50px;
+}
+
+img.worldimg{
+    width: 445px;
+    height: 345px;
+}
+
+div.world{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: 20px;
+}
+
+div.astro{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 168px;
+    width: 111px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 60px;
+}
+
+img.astroimg{
+    width: 111px;
+    height: 168px;
+    margin-left: 332px;
+}
+
+div.tudo{
+    display: flex;
+}
+
+h1.top{
+    margin-left: 125px;
+    margin-top: 48px;
+}
+
+.arte .principal{
+    flex: 1;
+    height: 500px;
+}
+
+.arte{
+    width: 532px;
+}
+
+.principal{
+    width: 865px;
+    height: 658px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1.create{
+    font-weight: bolder;
+}
+
+img.iconGoogle{
+    width: 36px;
+    height: 36px;
+}
+
+img.iconFacebook{
+    width: 36px;
+    height: 36px;
+}
+
+div.principal{
+    background-color: white;
+    float: right;
 }
