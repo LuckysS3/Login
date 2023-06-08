@@ -25,6 +25,13 @@ img.diagroma{
     margin-top: 5px;
 }
 
+.h1-top{
+    margin-left: -73px;
+    margin-top: 48px;
+    font-weight: 500;
+    text-align: center;
+}
+
 img.worldimg{
     width: 445px;
     height: 345px;
@@ -68,10 +75,7 @@ div.tudo{
     width: 532px;
 }
 
-h1.h1-top{
-    margin-left: 125px;
-    margin-top: 48px;
-}
+
 .principal{
     width: 865px;
     height: 658px;
@@ -155,10 +159,17 @@ input{
     border: none;
     border-bottom: 1px solid #00000038;
     margin: 13px;
+    outline: none;
 }
 
-input:focus{
-    outline: none;
+.icons{
+}
+
+div.icon{
+    position: absolute;
+    right: 162px;
+    bottom: 159px;
+    cursor: pointer;
 }
 
 input[type="submit"]{
