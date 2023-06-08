@@ -14,6 +14,7 @@ body{
     color: white;
     margin: 0px;
     padding: 0px;
+    overflow-y: hidden;
 }
 
 img.diagroma{
@@ -61,7 +62,6 @@ div.tudo{
 
 .arte .principal{
     flex: 1;
-    height: 500px;
 }
 
 .arte{
@@ -76,12 +76,31 @@ h1.h1-top{
     width: 865px;
     height: 658px;
     color: black;
-    text-align: center;
-    padding-top: 50px;
+    background-color: white;
+    float: right;
 }
 
 h1.create{
     font-weight: bolder;
+    margin-top: 50px;
+    margin-left: 122px;
+}
+
+.div-login{
+    display: flex;
+}
+
+.div-login-google .div-login-facebook{
+    flex: 1;
+}
+
+.div-login-google{
+    width: 210px;
+    margin-left: 122px;
+    margin-top: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 img.iconGoogle{
@@ -89,12 +108,55 @@ img.iconGoogle{
     height: 36px;
 }
 
+.div-login-facebook{
+    width: 231px;
+    margin-left: 16px;
+    margin-top: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 img.iconFacebook{
     width: 36px;
     height: 36px;
 }
 
-div.principal{
-    background-color: white;
-    float: right;
+p.OR{
+    margin-left: 340px;
+    margin-top: 78px;
+    margin-bottom: 50px;
+}
+
+form{ 
+    margin-left: 105px;
+}
+
+input{
+    width: 540px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #00000038;
+    margin: 13px;
+}
+
+input[type="submit"]{
+    width: 544px;
+    background-color: #248064;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #2ba37f;
+}
+
+a{
+    text-decoration: none;
+    color: #2ba37f;
+}
+
+p.login{
+    margin-top: 10px;
+    margin-left: 120px;
 }

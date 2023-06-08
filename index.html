@@ -24,21 +24,23 @@
             <div class="principal">
                 <h1 class="create">Create Account</h1>
                 <div class="div-login">
-                    <img class="iconGoogle" src="img/google.png" alt="icon google">
-                    Sign up with google
+                    <div class="div-login-google">
+                        <img class="iconGoogle" src="img/google.png" alt="icon google">
+                        Sign up with google
+                    </div>
+                    <div class="div-login-facebook">
+                        <img class="iconFacebook" src="img/facebook.png" alt="icon facebook">
+                        Sign up with facebook
+                    </div>
                 </div>
-                <div class="div-login">
-                    <img class="iconFacebook" src="img/facebook.png" alt="icon facebook">
-                    Sign up with facebook
-                </div>
-                <p>OR</p>
+                <p class="OR">OR</p>
                 <form action="castro.php" method="post">
-                    <input type="text" name="text" id="itext" placeholder="Full Name">
-                    <input type="email" name="email" id="iemail" placeholder="Full Name">
-                    <input type="password" name="password" id="ipassword" placeholder="Password">
+                    <input type="text" name="text" id="itext" placeholder="Full Name"> <br>
+                    <input type="email" name="email" id="iemail" placeholder="Full Name"><br>
+                    <input type="password" name="password" id="ipassword" placeholder="Password"><br>
                     <input type="submit" value="Create Account">
                 </form>
-                <p>Already have an account? <a href="#">Login</a></p>
+                <p class="login">Already have an account? <a href="#">Login</a></p>
             </div>
         </div>
     </body>
