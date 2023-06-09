@@ -10,10 +10,8 @@
 body{
     font-family: 'Inter', sans-serif;
     background: black url(img/pexels-alex-andrews-816608.jpg) no-repeat;
-    background-size: cover;
+    background-size: contain;
     color: white;
-    margin: 0px;
-    padding: 0px;
     overflow-y: hidden;
     box-sizing: border-box;
 }
@@ -162,15 +160,15 @@ input{
     outline: none;
 }
 
-#icons{
+#icon{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.589);
-}
-
-div.icon{
     position: absolute;
-    right: 162px;
-    bottom: 159px;
+    top: 73%;
+    right: 161px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
     cursor: pointer;
 }
 
@@ -179,6 +177,8 @@ input[type="submit"]{
     background-color: #248064;
     color: white;
     cursor: pointer;
+    font-size: 22px;
+    letter-spacing: 7px;
 }
 
 input[type="submit"]:hover{
