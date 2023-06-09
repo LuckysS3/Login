@@ -4,9 +4,9 @@ function mostrasenha(){
 
     if(inputPass.type === 'password'){
         inputPass.setAttribute('type','text')
-        btnpass.classList.replace('bi-eye','bi-eye-slash')
+        btnpass.classList.replace('bi-eye-slash','bi-eye')
     }else{
         inputPass.setAttribute('type','password')
-        btnpass.classList.replace('bi-eye-slash','bi-eye')
+        btnpass.classList.replace('bi-eye','bi-eye-slash')
     }
 }
